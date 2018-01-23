@@ -1,4 +1,4 @@
-class AddLikeCountToPhotos < ActiveRecord::Migration[5.1]
+class AddLikeCountToPhotos < ActiveRecord::Migration[5.0]
   def change
     add_column :photos, :likes_count, :integer
   end

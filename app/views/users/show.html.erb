@@ -26,6 +26,9 @@
       <dt>Bio</dt>
       <dd><%= @user.bio %></dd>
 
+      <dt>Address</dt>
+      <dd><%= @user.address %></dd>
+
     </dl>
 
     <div class="btn-group btn-group-justified">
@@ -50,7 +53,7 @@
           <a href="/photos/<%= photo.id %>">
             <%= photo.caption %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/photos/<%= photo.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -83,7 +86,7 @@
           <a href="/votes/<%= vote.id %>">
             <%= vote.user_id %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/votes/<%= vote.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -116,7 +119,7 @@
           <a href="/comments/<%= comment.id %>">
             <%= comment.body %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/comments/<%= comment.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -149,7 +152,7 @@
           <a href="/friend_requests/<%= friend_request.id %>">
             <%= friend_request.sender_id %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/friend_requests/<%= friend_request.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -182,7 +185,7 @@
           <a href="/friend_requests/<%= friend_request.id %>">
             <%= friend_request.sender_id %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/friend_requests/<%= friend_request.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -215,7 +218,7 @@
           <a href="/users/<%= user.id %>">
             <%= user.email %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/users/<%= user.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -246,7 +249,7 @@
           <a href="/users/<%= user.id %>">
             <%= user.email %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/users/<%= user.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -277,7 +280,7 @@
           <a href="/photos/<%= photo.id %>">
             <%= photo.caption %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/photos/<%= photo.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -310,7 +313,7 @@
           <a href="/photos/<%= photo.id %>">
             <%= photo.caption %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/photos/<%= photo.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>
@@ -343,7 +346,7 @@
           <a href="/photos/<%= photo.id %>">
             <%= photo.caption %>
           </a>
-          <div class="btn-group btn-group-xs float-right">
+          <div class="btn-group btn-group-xs pull-right">
             <a href="/photos/<%= photo.id %>" class="btn btn-primary">
               <i class="fa fa-search-plus"></i>
             </a>

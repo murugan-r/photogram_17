@@ -1,4 +1,4 @@
-class AddLocationFormattedAddressToPhoto < ActiveRecord::Migration[5.1]
+class AddLocationFormattedAddressToPhoto < ActiveRecord::Migration[5.0]
   def change
     add_column :photos, :location_formatted_address, :string
   end

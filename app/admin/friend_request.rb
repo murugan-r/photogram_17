@@ -1,6 +1,7 @@
-ActiveAdmin.register Photo do
+ActiveAdmin.register FriendRequest do
 
- permit_params :caption, :image, :location, :owner_id
+ permit_params :sender_id, :recipient_id, :status
+
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -13,5 +14,6 @@ ActiveAdmin.register Photo do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
+
 
 end

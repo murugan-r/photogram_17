@@ -1,6 +1,7 @@
-ActiveAdmin.register Vote do
+ActiveAdmin.register Photo do
 
- permit_params :user_id, :photo_id
+ permit_params :caption, :image, :location, :owner_id
+
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -13,5 +14,6 @@ ActiveAdmin.register Vote do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
+
 
 end

@@ -1,6 +1,7 @@
-ActiveAdmin.register FriendRequest do
+ActiveAdmin.register User do
 
- permit_params :sender_id, :recipient_id, :status
+ permit_params :email, :password, :username, :avatar, :first_name, :last_name, :bio, :address
+
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -13,5 +14,6 @@ ActiveAdmin.register FriendRequest do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
+
 
 end
