@@ -54,3 +54,6 @@ gem 'starter_generators', :git => 'https://github.com/raghubetina/starter_genera
 gem 'font-awesome-sass', '~> 4.5.0'
 gem 'activeadmin'
 gem 'inherited_resources', :git => 'https://github.com/activeadmin/inherited_resources.git'
+gem 'carrierwave'
+gem 'cloudinary'
+gem 'dotenv-rails', :groups => [:development, :test]
